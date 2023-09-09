@@ -1,0 +1,195 @@
+@media screen  and (max-width: 450px){
+  img{
+  width:100%
+  }
+
+}
+@media screen  and (max-width: 1000px){
+ #header{
+    padding: 14px 0;
+    align-items: center;
+  }
+  .humberger-icon, .humberger-menu{
+    display: flex;
+  }
+  header > #dekstop-nav{
+    display: none;
+  }
+  #mobile-nav{
+    display: flex;
+    width: 100%;
+  }
+  .title{
+    margin-left: 30px;
+  }
+  .content{
+    flex-direction: column-reverse;
+    padding: 0;
+}
+.home button{
+  padding: 10px 15px;
+  border-radius: 21px;
+}
+.left-content{
+ justify-content: center;
+  height: 30%;
+  padding: 10px 0 0 0;
+}
+.left-content h1,.left-content h5{
+    width: 100%;
+  text-align:center;
+  margin: 0;
+   font-size: 1.2rem;
+   display: flex;
+   flex-direction: column;
+   letter-spacing: 2px;
+}
+
+.helo{
+  display: inline;
+}
+.name{
+  font-size: 1.7rem;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+.left-content p{
+text-align:center;
+  margin-top: 15px;
+  font-size: 0,95rem;
+}
+.icon{
+  align-items: start;
+  margin: 15px 0;
+  justify-content: center;
+}
+.button{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+.desc{
+  display: none;
+}
+.right-content{
+  height: 70%;
+  padding :0 ;
+}
+img{
+  margin-top: 0;
+  height: 100%;
+}
+.home{
+  height: 100vh;
+}
+.humberger-menu{
+  padding-right: 30px;
+}
+.menu-list{
+  border-radius: 10px;
+  width: 100%;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.menu-list a{
+  font-size: 1.2rem;
+  width: 100%;
+  border-radius: 16px;
+}
+.menu-list li{
+  width: 100%;
+  padding: 10px 5px;
+}
+
+/* about query */
+#about .content-title p{
+  width: 100%;
+}
+#about .content-title .line{
+  width: 45%;
+}
+
+/* experience */
+#experience,#experience .container-section{
+  height: 100%;
+ padding: 0;
+ margin: 0;
+}
+#experience .title-experience{
+padding-top: 30px;
+ } 
+
+#experience .content-experience{
+ padding: 20px;
+flex-direction: column;
+gap: 20px;
+}
+#experience .left-section-experience,#experience .right-section-experience{
+  width: 100%;
+  height: 100%;
+}
+
+.subcontent{
+ flex-direction: column;
+ align-items: center;
+  padding: 10px 0;
+}
+.subcontent .left-list, .subcontent .right-list{ 
+   margin:0;
+padding:0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.subcontent a{
+  font-size: 1.2rem;
+}
+.subcontent li p{
+  margin-top: -3px;
+  font-size: 0.82rem;
+ }
+.subcontent li{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+ 
+}
+.subcontent li div{
+flex-basis: 40%;
+padding: 20px 0;
+}
+.subcontent .icon-list{
+ margin-right: 10px;
+background-position: 100% 0;
+ background-size: contain;
+}
+
+/* contact */
+#contact .container-section{
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+.contact-content{
+padding: 0 20px;
+}
+.my-contact{
+  width: 100%;
+  flex-direction: column;
+  gap: 20px;
+   letter-spacing: 1px;
+}
+
+/* aside */
+aside{
+ padding:90px 20px 100px 20px;
+}
+aside article{
+  width: 100%;
+}
+/* footer */
+
+}
+

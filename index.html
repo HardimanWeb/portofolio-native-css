@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hardiman Simamora Portofolio Native Css</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/viewMobile.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="title">
+        <div class="firstName">HARDIMAN</div>
+        <div class="secondName">SIMAMORA</div>
+      </div>
+      <nav id="dekstop-nav">
+        <ul class="nav-list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact" class="active">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="humberger-menu">
+        <nav id="mobile-nav">
+          <ul class="menu-list">
+            <li><a href="#" onclick="toggleMenu()">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li>
+              <a href="#contact" onclick="toggleMenu()" class="active"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="humberger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </header>
+    <main>
+      <article class="home">
+        <div class="content">
+          <div class="left-content">
+            <h1>
+              <span class="emoji"
+                >&#128075; <span class="helo">Hello,</span> I'M</span
+              >
+              <span class="name">Hardiman Simamora</span>
+            </h1>
+            <h5>Frontend Develover</h5>
+            <p class="desc">
+              Hi, my name is Hardiman Simamora I really like programming
+              especially in the front end field. Click Portfolio to see my
+              details.
+            </p>
+            <div class="button">
+              <button class="portofolio-button">
+                <a href="#aside">PORTOFOLIO</a>
+              </button>
+              <button class="cv-button">
+                <a href="file/Hardiman-cv.pdf" target="_blank">Download CV</a>
+              </button>
+            </div>
+            <div class="icon">
+              <a
+                href="https://github.com/HardimanWeb"
+                title="github"
+                target="_blank"
+              >
+                <div class="github"></div
+              ></a>
+              <a
+                href="https://www.instagram.com/hardiman_simamora/"
+                title="instagram"
+                target="_blank"
+              >
+                <div class="instagram"></div
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/hardiman-ruhut-m-simamora-039762210/"
+                title="linkedin"
+                target="_blank"
+              >
+                <div class="linkedin"></div
+              ></a>
+            </div>
+          </div>
+          <div class="right-content">
+            <div class="img-container">
+              <img src="img/me.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </article>
+      <article id="about">
+        <div class="container-section">
+          <div class="content-title">
+            <h2>ABOUT <span>ME</span></h2>
+            <span class="line"></span>
+            <p class="mt-3">
+              Hallo Perkenalkan nama saya Hardiman simamora. saya merupakan anak
+              ketiga dari lima bersaudara, saya bertempat tinggal di sibolga,
+              kabupaten tapanuli-tengah, sumatra utara. sekarang saya lagi
+              menempuh pendidikan s1 teknik informatika di suatu universitas
+              swasta di medan. saya sangat suka belajar coding terutama dibidang
+              web developer.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article id="experience">
+        <div class="container-section">
+          <div class="title-experience">
+            <h4>Explore My</h4>
+            <h2>Experience</h2>
+          </div>
+          <section class="content-experience">
+            <div class="left-section-experience">
+              <h3>Frontend Development</h3>
+              <div class="subcontent">
+                <ul class="left-list">
+                  <li>
+                    <div class="icon-list"></div>
+                    <div>
+                      <a href="">HTML</a>
+                      <p>Experienced</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="icon-list"></div>
+                    <div>
+                      <a href="">Javascript</a>
+                      <p>Intermediate</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="icon-list"></div>
+                    <div>
+                      <a href="">PHP</a>
+                      <p>Intermediate</p>
+                    </div>
+                  </li>
+                </ul>
+                <ul class="right-list">
+                  <li>
+                    <div class="icon-list"></div>
+                    <div>
+                      <a href="">CSS</a>
+                      <p>Experienced</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="icon-list"></div>
+                    <div>
+                      <a href="">BootsTrap</a>
+                      <p>Intermediate</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="icon-list"></div>
+                    <div>
+                      <a href="">Materiallize UI</a>
+                      <p>Experienced</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="right-section-experience">
+              <h3>Backend Development</h3>
+              <div class="subcontent">
+                <ul class="left-list">
+                  <li>
+                    <div class="icon-list"></div>
+                    <div>
+                      <a href="">Node Js</a>
+                      <p>Intermediate</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="icon-list"></div>
+                    <div>
+                      <a href="">Laravel</a>
+                      <p>Intermediate</p>
+                    </div>
+                  </li>
+                </ul>
+                <ul class="right-list">
+                  <li>
+                    <div class="icon-list"></div>
+                    <div>
+                      <a href="">Java</a>
+                      <p>Intermediate</p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="icon-list"></div>
+                    <div>
+                      <a href="">Codeigniter</a>
+                      <p>Intermediate</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </div>
+      </article>
+      <article id="contact">
+        <div class="container-section">
+          <div class="title-experience">
+            <h4>Get In Touch</h4>
+            <h2>Contact Me</h2>
+          </div>
+          <section class="contact-content">
+            <div class="my-contact">
+              <a href="" class="email">hardimansimamorah@gmail.com</a>
+              <a href="" class="no">082275782649</a>
+            </div>
+          </section>
+        </div>
+      </article>
+      <aside id="aside">
+        <article class="card-profile">
+          <header class="header-card">
+            <h3>Biodata</h3>
+            <div class="line"></div>
+            <img class="img-profile" src="img/iam.jpg" />
+            <div class="btn-card">
+              <button>Frontend Web</button>
+              <button>Backend Web</button>
+            </div>
+          </header>
+          <section>
+            <table>
+              <tr>
+                <th>Nama</th>
+                <td>Hardiman Ruhut M. simamora</td>
+              </tr>
+              <tr>
+                <th>Alamat</th>
+                <td>JL.Sibolga-Tarutung, Tapanuli-tengah</td>
+              </tr>
+              <tr>
+                <th>No. Telepon</th>
+                <td>082275782649</td>
+              </tr>
+              <tr>
+                <th>Email</th>
+                <td>hardimansimamorah@gmail.com</td>
+              </tr>
+            </table>
+          </section>
+        </article>
+      </aside>
+    </main>
+    <footer>
+      <div class="container-footer">
+        <div class="list">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="copyright">
+          <p>Copyright © 2023 By 💛 <span>Hardiman Simamora</span></p>
+        </div>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="js/index.js"></script>
+  </body>
+</html>
