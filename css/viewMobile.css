@@ -60,7 +60,7 @@ text-align:center;
 }
 .icon{
   align-items: start;
-  margin: 15px 0;
+  margin: 15px 0 50px 0;
   justify-content: center;
 }
 .button{
@@ -77,12 +77,10 @@ text-align:center;
   padding :0 ;
 }
 img{
-  margin-top: 0;
-  height: 100%;
+  margin-top: -70px;
+ 
 }
-.home{
-  height: 100vh;
-}
+
 .humberger-menu{
   padding-right: 30px;
 }
@@ -176,11 +174,11 @@ background-position: 100% 0;
 padding: 0 20px;
 }
 .my-contact{
-  width: 100%;
   flex-direction: column;
   gap: 20px;
-   letter-spacing: 1px;
+  letter-spacing: 1px;
 }
+
 
 /* aside */
 aside{
@@ -190,6 +188,15 @@ aside article{
   width: 100%;
 }
 /* footer */
-
+.list ul{
+  margin-top: 20px;
+  width: 90%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+footer .list{
+  width: 100%;
+}
 }
 
